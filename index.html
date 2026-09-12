@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gih Barber | Studio de Barbearia</title>
+    <meta name="description" content="Gih Barber - Cortes modernos, barba e cuidados masculinos em Pouso Alegre - MG. Agende seu horário pelo WhatsApp ou App.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header class="header" id="header">
+        <div class="container header__inner">
+            <a href="#inicio" class="logo">GIH <span>BARBER</span></a>
+
+            <nav class="nav" id="nav">
+                <ul class="nav__list">
+                    <li><a href="#inicio" class="nav__link">Início</a></li>
+                    <li><a href="#sobre" class="nav__link">Sobre</a></li>
+                    <li><a href="#servicos" class="nav__link">Serviços</a></li>
+                    <li><a href="#galeria" class="nav__link">Galeria</a></li>
+                    <li><a href="#horario" class="nav__link">Horários</a></li>
+                    <li><a href="#localizacao" class="nav__link">Localização</a></li>
+                    <li><a href="#contato" class="nav__link">Contato</a></li>
+                </ul>
+            </nav>
+
+            <a href="#" class="btn btn--primary header__cta js-agendar">
+                <i class="fa-solid fa-calendar-check"></i> Agendar Horário
+            </a>
+
+            <button class="hamburger" id="hamburger" aria-label="Abrir menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero" id="inicio">
+        <div class="hero__overlay"></div>
+        <div class="container hero__content">
+            <p class="hero__pretitle">Bem-vindo à</p>
+            <h1 class="hero__title">GIH <span>BARBER</span></h1>
+            <p class="hero__subtitle">Estilo, tradição e precisão em cada corte</p>
+            <div class="hero__actions">
+                <a href="#" class="btn btn--primary js-agendar">
+                    <i class="fa-solid fa-calendar-check"></i> Agendar Horário
+                </a>
+                <a href="#servicos" class="btn btn--outline">Ver Serviços</a>
+            </div>
+        </div>
+        <a href="#sobre" class="hero__scroll" aria-label="Rolar para baixo">
+            <i class="fa-solid fa-chevron-down"></i>
+        </a>
+    </section>
+
+    <!-- SOBRE -->
+    <section class="sobre" id="sobre">
+        <div class="container sobre__inner">
+            <div class="sobre__img">
+                <img src="https://images.unsplash.com/photo-1585747860715-2ba37e788b70?auto=format&fit=crop&w=900&q=80" alt="Interior da Gih Barber">
+            </div>
+            <div class="sobre__text">
+                <p class="section__pretitle">Nossa história</p>
+                <h2 class="section__title">Tradição e estilo em cada detalhe</h2>
+                <p>
+                    Há mais de 10 anos no mercado, a <strong>Gih Barber</strong> nasceu da paixão
+                    pela barbearia clássica combinada com as tendências mais modernas. Nossa equipe é formada
+                    por profissionais especializados, prontos para oferecer a você uma experiência única de
+                    cuidado e bem-estar masculino.
+                </p>
+                <p>
+                    Ambiente climatizado, atendimento personalizado e produtos de alta qualidade fazem parte
+                    da nossa rotina para garantir o seu melhor visual.
+                </p>
+
+                <div class="sobre__stats">
+                    <div class="stat">
+                        <span class="stat__number">10+</span>
+                        <span class="stat__label">Anos de experiência</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat__number">5.000+</span>
+                        <span class="stat__label">Clientes atendidos</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat__number">6</span>
+                        <span class="stat__label">Profissionais</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVIÇOS -->
+    <section class="servicos" id="servicos">
+        <div class="container">
+            <p class="section__pretitle center">O que oferecemos</p>
+            <h2 class="section__title center">Nossos Serviços</h2>
+
+            <div class="servicos__lista">
+                <div class="servico-item servico-item--destaque">
+                    <span class="servico-item__badge"><i class="fa-solid fa-star"></i> Mais pedido</span>
+                    <div class="servico-item__info">
+                        <h3>Corte</h3>
+                        <span class="servico-item__duracao"><i class="fa-regular fa-clock"></i> 30 min</span>
+                    </div>
+                    <div class="servico-item__acao">
+                        <span class="servico-item__preco">R$ 40,00</span>
+                        <a href="#" class="btn-agendar-mini js-agendar">Agendar</a>
+                    </div>
+                </div>
+
+                <div class="servico-item servico-item--destaque">
+                    <span class="servico-item__badge"><i class="fa-solid fa-star"></i> Mais pedido</span>
+                    <div class="servico-item__info">
+                        <h3>Corte + Barba</h3>
+                        <span class="servico-item__duracao"><i class="fa-regular fa-clock"></i> 45 min</span>
+                    </div>
+                    <div class="servico-item__acao">
+                        <span class="servico-item__preco">R$ 70,00</span>
+                        <a href="#" class="btn-agendar-mini js-agendar">Agendar</a>
+                    </div>
+                </div>
+
+                <div class="servico-item">
+                    <div class="servico-item__info">
+                        <h3>Acabamento de Pezinho</h3>
+                        <span class="servico-item__duracao"><i class="fa-regular fa-clock"></i> 10 min</span>
+                    </div>
+                    <div class="servico-item__acao">
+                        <span class="servico-item__preco">R$ 15,00</span>
+                        <a href="#" class="btn-agendar-mini js-agendar">Agendar</a>
+                    </div>
+                </div>
+
+                <div class="servico-item">
+                    <div class="servico-item__info">
+                        <h3>Barba</h3>
+                        <span class="servico-item__duracao"><i class="fa-regular fa-clock"></i> 20 min</span>
+                    </div>
+                    <div class="servico-item__acao">
+                        <span class="servico-item__preco">R$ 30,00</span>
+                        <a href="#" class="btn-agendar-mini js-agendar">Agendar</a>
+                    </div>
+                </div>
+
+                <div class="servico-item">
+                    <div class="servico-item__info">
+                        <h3>Barba + Acabamento de Pezinho</h3>
+                        <span class="servico-item__duracao"><i class="fa-regular fa-clock"></i> 40 min</span>
+                    </div>
+                    <div class="servico-item__acao">
+                        <span class="servico-item__preco">R$ 45,00</span>
+                        <a href="#" class="btn-agendar-mini js-agendar">Agendar</a>
+                    </div>
+                </div>
+
+                <div class="servico-item">
+                    <div class="servico-item__info">
+                        <h3>Barba + Sobrancelha na Navalha</h3>
+                        <span class="servico-item__duracao"><i class="fa-regular fa-clock"></i> 40 min</span>
+                    </div>
+                    <div class="servico-item__acao">
+                        <span class="servico-item__preco">R$ 45,00</span>
+                        <a href="#" class="btn-agendar-mini js-agendar">Agendar</a>
+                    </div>
+                </div>
+
+                <div class="servico-item">
+                    <div class="servico-item__info">
+                        <h3>Barba + Sobrancelha na Pinça</h3>
+                        <span class="servico-item__duracao"><i class="fa-regular fa-clock"></i> 40 min</span>
+                    </div>
+                    <div class="servico-item__acao">
+                        <span class="servico-item__preco">R$ Consultar</span>
+                        <a href="#" class="btn-agendar-mini js-agendar">Agendar</a>
+                    </div>
+                </div>
+
+                <div class="servico-item">
+                    <div class="servico-item__info">
+                        <h3>Barba + Tintura</h3>
+                        <span class="servico-item__duracao"><i class="fa-regular fa-clock"></i> 40 min</span>
+                    </div>
+                    <div class="servico-item__acao">
+                        <span class="servico-item__preco">R$ 55,00</span>
+                        <a href="#" class="btn-agendar-mini js-agendar">Agendar</a>
+                    </div>
+                </div>
+
+                <div class="servico-item">
+                    <div class="servico-item__info">
+                        <h3>Barbo Terapia</h3>
+                        <span class="servico-item__duracao"><i class="fa-regular fa-clock"></i> 30 min</span>
+                    </div>
+                    <div class="servico-item__acao">
+                        <span class="servico-item__preco">R$ 50,00</span>
+                        <a href="#" class="btn-agendar-mini js-agendar">Agendar</a>
+                    </div>
+                </div>
+
+                <div class="servico-item">
+                    <div class="servico-item__info">
+                        <h3>Corte + Barba + Sobrancelha na Pinça</h3>
+                        <span class="servico-item__duracao"><i class="fa-regular fa-clock"></i> 60 min</span>
+                    </div>
+                    <div class="servico-item__acao">
+                        <span class="servico-item__preco">R$ 95,00</span>
+                        <a href="#" class="btn-agendar-mini js-agendar">Agendar</a>
+                    </div>
+                </div>
+
+                <div class="servico-item">
+                    <div class="servico-item__info">
+                        <h3>Corte + Barba + Sobrancelha na Navalha</h3>
+                        <span class="servico-item__duracao"><i class="fa-regular fa-clock"></i> 60 min</span>
+                    </div>
+                    <div class="servico-item__acao">
+                        <span class="servico-item__preco">R$ 80,00</span>
+                        <a href="#" class="btn-agendar-mini js-agendar">Agendar</a>
+                    </div>
+                </div>
+
+                <div class="servico-item">
+                    <div class="servico-item__info">
+                        <h3>Corte + Limpeza de Pele</h3>
+                        <span class="servico-item__duracao"><i class="fa-regular fa-clock"></i> 60 min</span>
+                    </div>
+                    <div class="servico-item__acao">
+                        <span class="servico-item__preco">R$ 90,00</span>
+                        <a href="#" class="btn-agendar-mini js-agendar">Agendar</a>
+                    </div>
+                </div>
+
+                <div class="servico-item">
+                    <div class="servico-item__info">
+                        <h3>Corte + Sobrancelha na Navalha</h3>
+                        <span class="servico-item__duracao"><i class="fa-regular fa-clock"></i> 40 min</span>
+                    </div>
+                    <div class="servico-item__acao">
+                        <span class="servico-item__preco">R$ 50,00</span>
+                        <a href="#" class="btn-agendar-mini js-agendar">Agendar</a>
+                    </div>
+                </div>
+
+                <div class="servico-item">
+                    <div class="servico-item__info">
+                        <h3>Corte + Sobrancelha na Pinça</h3>
+                        <span class="servico-item__duracao"><i class="fa-regular fa-clock"></i> 50 min</span>
+                    </div>
+                    <div class="servico-item__acao">
+                        <span class="servico-item__preco">R$ 65,00</span>
+                        <a href="#" class="btn-agendar-mini js-agendar">Agendar</a>
+                    </div>
+                </div>
+
+                <div class="servico-item">
+                    <div class="servico-item__info">
+                        <h3>Corte e Tintura</h3>
+                        <span class="servico-item__duracao"><i class="fa-regular fa-clock"></i> 60 min</span>
+                    </div>
+                    <div class="servico-item__acao">
+                        <span class="servico-item__preco">R$ 80,00</span>
+                        <a href="#" class="btn-agendar-mini js-agendar">Agendar</a>
+                    </div>
+                </div>
+
+                <div class="servico-item">
+                    <div class="servico-item__info">
+                        <h3>Corte Kids</h3>
+                        <span class="servico-item__duracao"><i class="fa-regular fa-clock"></i> 30 min</span>
+                    </div>
+                    <div class="servico-item__acao">
+                        <span class="servico-item__preco">R$ 40,00</span>
+                        <a href="#" class="btn-agendar-mini js-agendar">Agendar</a>
+                    </div>
+                </div>
+
+                <div class="servico-item">
+                    <div class="servico-item__info">
+                        <h3>Corte + Sobrancelha na Pinça</h3>
+                        <span class="servico-item__duracao"><i class="fa-regular fa-clock"></i> 45 min</span>
+                    </div>
+                    <div class="servico-item__acao">
+                        <span class="servico-item__preco">R$ 65,00</span>
+                        <a href="#" class="btn-agendar-mini js-agendar">Agendar</a>
+                    </div>
+                </div>
+
+                <div class="servico-item">
+                    <div class="servico-item__info">
+                        <h3>Depilação Nasal + Orelha com Cera Quente</h3>
+                        <span class="servico-item__duracao"><i class="fa-regular fa-clock"></i> 30 min</span>
+                    </div>
+                    <div class="servico-item__acao">
+                        <span class="servico-item__preco">R$ 20,00</span>
+                        <a href="#" class="btn-agendar-mini js-agendar">Agendar</a>
+                    </div>
+                </div>
+
+                <div class="servico-item">
+                    <div class="servico-item__info">
+                        <h3>Hidratação de Barba</h3>
+                        <span class="servico-item__duracao"><i class="fa-regular fa-clock"></i> 30 min</span>
+                    </div>
+                    <div class="servico-item__acao">
+                        <span class="servico-item__preco">R$ 25,00</span>
+                        <a href="#" class="btn-agendar-mini js-agendar">Agendar</a>
+                    </div>
+                </div>
+
+                <div class="servico-item">
+                    <div class="servico-item__info">
+                        <h3>Hidratação de Cabelo</h3>
+                        <span class="servico-item__duracao"><i class="fa-regular fa-clock"></i> 30 min</span>
+                    </div>
+                    <div class="servico-item__acao">
+                        <span class="servico-item__preco">R$ 25,00</span>
+                        <a href="#" class="btn-agendar-mini js-agendar">Agendar</a>
+                    </div>
+                </div>
+
+                <div class="servico-item">
+                    <div class="servico-item__info">
+                        <h3>Limpeza de Pele</h3>
+                        <p class="servico-item__obs">Não inclui extração de cravos. Para extração profunda, acrescenta-se R$ 20,00.</p>
+                        <span class="servico-item__duracao"><i class="fa-regular fa-clock"></i> 50 min</span>
+                    </div>
+                    <div class="servico-item__acao">
+                        <span class="servico-item__preco">R$ 60,00</span>
+                        <a href="#" class="btn-agendar-mini js-agendar">Agendar</a>
+                    </div>
+                </div>
+
+                <div class="servico-item">
+                    <div class="servico-item__info">
+                        <h3>Luzes + Corte</h3>
+                        <span class="servico-item__duracao"><i class="fa-regular fa-clock"></i> 45 min</span>
+                    </div>
+                    <div class="servico-item__acao">
+                        <span class="servico-item__preco">R$ 180,00</span>
+                        <a href="#" class="btn-agendar-mini js-agendar">Agendar</a>
+                    </div>
+                </div>
+
+                <div class="servico-item">
+                    <div class="servico-item__info">
+                        <h3>Platinado + Corte</h3>
+                        <span class="servico-item__duracao"><i class="fa-regular fa-clock"></i> 60 min</span>
+                    </div>
+                    <div class="servico-item__acao">
+                        <span class="servico-item__preco">R$ 180,00</span>
+                        <a href="#" class="btn-agendar-mini js-agendar">Agendar</a>
+                    </div>
+                </div>
+
+                <div class="servico-item">
+                    <div class="servico-item__info">
+                        <h3>Selagem</h3>
+                        <p class="servico-item__obs">Valor a partir de R$ 50,00 — entre em contato para avaliar o tamanho do cabelo.</p>
+                        <span class="servico-item__duracao"><i class="fa-regular fa-clock"></i> 60 min</span>
+                    </div>
+                    <div class="servico-item__acao">
+                        <span class="servico-item__preco">A partir de<br>R$ 50,00</span>
+                        <a href="#" class="btn-agendar-mini js-agendar">Agendar</a>
+                    </div>
+                </div>
+
+                <div class="servico-item">
+                    <div class="servico-item__info">
+                        <h3>Sobrancelha na Navalha</h3>
+                        <span class="servico-item__duracao"><i class="fa-regular fa-clock"></i> 15 min</span>
+                    </div>
+                    <div class="servico-item__acao">
+                        <span class="servico-item__preco">R$ 15,00</span>
+                        <a href="#" class="btn-agendar-mini js-agendar">Agendar</a>
+                    </div>
+                </div>
+
+                <div class="servico-item">
+                    <div class="servico-item__info">
+                        <h3>Sobrancelha na Pinça</h3>
+                        <span class="servico-item__duracao"><i class="fa-regular fa-clock"></i> 20 min</span>
+                    </div>
+                    <div class="servico-item__acao">
+                        <span class="servico-item__preco">R$ 25,00</span>
+                        <a href="#" class="btn-agendar-mini js-agendar">Agendar</a>
+                    </div>
+                </div>
+
+                <div class="servico-item">
+                    <div class="servico-item__info">
+                        <h3>Tintura de Barba</h3>
+                        <span class="servico-item__duracao"><i class="fa-regular fa-clock"></i> 30 min</span>
+                    </div>
+                    <div class="servico-item__acao">
+                        <span class="servico-item__preco">R$ 25,00</span>
+                        <a href="#" class="btn-agendar-mini js-agendar">Agendar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- GALERIA -->
+    <section class="galeria" id="galeria">
+        <div class="container">
+            <p class="section__pretitle center">Nosso trabalho</p>
+            <h2 class="section__title center">Galeria</h2>
+
+            <div class="galeria__grid" id="galeriaGrid">
+                <div class="galeria__item"><img src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=600&q=80" alt="Corte de cabelo masculino"></div>
+                <div class="galeria__item"><img src="https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?auto=format&fit=crop&w=600&q=80" alt="Barbeiro trabalhando"></div>
+                <div class="galeria__item"><img src="https://images.unsplash.com/photo-1599351431202-1e0f0137899a?auto=format&fit=crop&w=600&q=80" alt="Ambiente da barbearia"></div>
+                <div class="galeria__item"><img src="https://images.unsplash.com/photo-1622286342621-4bd786c2447c?auto=format&fit=crop&w=600&q=80" alt="Corte na tesoura"></div>
+                <div class="galeria__item"><img src="https://images.unsplash.com/photo-1512690459411-b9245aed614b?auto=format&fit=crop&w=600&q=80" alt="Acabamento de barba"></div>
+                <div class="galeria__item"><img src="https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&w=600&q=80" alt="Cadeira de barbearia"></div>
+                <div class="galeria__item"><img src="https://images.unsplash.com/photo-1580618672591-eb180b1a973f?auto=format&fit=crop&w=600&q=80" alt="Ferramentas de barbeiro"></div>
+                <div class="galeria__item"><img src="https://images.unsplash.com/photo-1519415943484-9fa1873496d4?auto=format&fit=crop&w=600&q=80" alt="Cliente satisfeito"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- LIGHTBOX -->
+    <div class="lightbox" id="lightbox">
+        <button class="lightbox__close" id="lightboxClose" aria-label="Fechar">&times;</button>
+        <img src="" alt="" id="lightboxImg">
+    </div>
+
+    <!-- HORÁRIO -->
+    <section class="horario" id="horario">
+        <div class="container horario__inner">
+            <div class="horario__text">
+                <p class="section__pretitle">Estamos te esperando</p>
+                <h2 class="section__title">Horário de Funcionamento</h2>
+                <p>Confira nossos horários e venha nos visitar. Recomendamos agendar com antecedência para garantir o melhor horário para você.</p>
+                <a href="#" class="btn btn--primary js-agendar">
+                    <i class="fa-solid fa-calendar-check"></i> Agendar agora
+                </a>
+            </div>
+            <div class="horario__table">
+                <div class="horario__row">
+                    <span>Segunda-feira</span>
+                    <span>08:00 - 12:00 / 13:00 - 19:00</span>
+                </div>
+                <div class="horario__row">
+                    <span>Terça-feira</span>
+                    <span>08:00 - 19:00</span>
+                </div>
+                <div class="horario__row">
+                    <span>Quarta-feira</span>
+                    <span>08:00 - 19:00</span>
+                </div>
+                <div class="horario__row">
+                    <span>Quinta-feira</span>
+                    <span>08:00 - 19:00</span>
+                </div>
+                <div class="horario__row">
+                    <span>Sexta-feira</span>
+                    <span>08:00 - 19:00</span>
+                </div>
+                <div class="horario__row">
+                    <span>Sábado</span>
+                    <span>08:00 - 15:00</span>
+                </div>
+                <div class="horario__row">
+                    <span>Domingo</span>
+                    <span class="horario__closed">Fechado</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- LOCALIZAÇÃO -->
+    <section class="localizacao" id="localizacao">
+        <div class="container">
+            <p class="section__pretitle center">Onde estamos</p>
+            <h2 class="section__title center">Localização</h2>
+
+            <div class="localizacao__inner">
+                <div class="localizacao__info">
+                    <div class="info-item">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <div>
+                            <h4>Endereço</h4>
+                            <p>Avenida Antônio Rafael Andery, 166 - 180<br>Jardim Industrial Mariosa<br>Pouso Alegre - MG, 37557-092</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fa-solid fa-phone"></i>
+                        <div>
+                            <h4>Telefone</h4>
+                            <p>(35) 99958-6410</p>
+                        </div>
+                    </div>
+                    <a href="https://www.google.com/maps/place/Gih_Barber+Pouso+Alegre/@-22.2622221,-45.928719,18.5z/data=!4m6!3m5!1s0x94cbc7c737e8419f:0x3c8cc3f1ffa7ab16!8m2!3d-22.2622919!4d-45.9278282!16s%2Fg%2F11xdjgkj_v"
+                       target="_blank" rel="noopener" class="btn btn--outline">
+                        <i class="fa-solid fa-diamond-turn-right"></i> Ver no Google Maps
+                    </a>
+                </div>
+
+                <div class="localizacao__map">
+                    <iframe
+                        src="https://maps.google.com/maps?q=Gih+Barber+Pouso+Alegre&z=17&ie=UTF8&iwloc=&output=embed"
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"
+                        title="Mapa de localização da Gih Barber">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTATO / FOOTER -->
+    <footer class="footer" id="contato">
+        <div class="container footer__inner">
+            <div class="footer__col">
+                <a href="#inicio" class="logo footer__logo">GIH <span>BARBER</span></a>
+                <p>Estilo, tradição e precisão em cada corte. Venha viver essa experiência.</p>
+                <div class="footer__social">
+                    <a href="https://wa.me/5535995986410" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+            </div>
+
+            <div class="footer__col">
+                <h4>Navegação</h4>
+                <ul>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#" class="js-agendar">Agendar</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#galeria">Galeria</a></li>
+                    <li><a href="#localizacao">Localização</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__col">
+                <h4>Contato</h4>
+                <ul>
+                    <li><i class="fa-solid fa-location-dot"></i> Av. Antônio Rafael Andery, 166 - Jardim Industrial Mariosa, Pouso Alegre - MG</li>
+                    <li><i class="fa-solid fa-phone"></i> (35) 99958-6410</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer__bottom">
+            <p>&copy; <span id="year"></span> Gih Barber. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- MODAL DE AGENDAMENTO -->
+    <div class="modal-agendar" id="modalAgendar">
+        <div class="modal-agendar__card">
+            <button class="modal-agendar__close" id="modalAgendarClose" aria-label="Fechar">&times;</button>
+            <h3 class="modal-agendar__title">Como você quer agendar?</h3>
+            <p class="modal-agendar__subtitle">Escolha a forma mais rápida pra você</p>
+            <div class="modal-agendar__opcoes">
+                <a href="https://wa.me/5535995986410?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20um%20hor%C3%A1rio."
+                   target="_blank" rel="noopener" class="modal-agendar__opcao modal-agendar__opcao--whatsapp">
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <span>Agendar pelo WhatsApp</span>
+                </a>
+                <a href="https://sites.appbarber.com.br/gihbarber"
+                   target="_blank" rel="noopener" class="modal-agendar__opcao modal-agendar__opcao--app">
+                    <i class="fa-solid fa-calendar-check"></i>
+                    <span>Agendar pelo App</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- BOTÃO FLUTUANTE WHATSAPP -->
+    <a href="https://wa.me/5535995986410?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20um%20hor%C3%A1rio."
+       target="_blank" rel="noopener" class="whatsapp-float" aria-label="Agendar pelo WhatsApp">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
